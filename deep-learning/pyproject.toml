@@ -1,0 +1,25 @@
+[project]
+name = "2amm10-deep-learning"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "torch",
+    "torchvision",
+    "pytorch-metric-learning",
+    "pytorch-lightning",
+    "kagglehub",
+    "matplotlib",
+    "ipykernel",
+    "ipywidgets",
+    "scikit-learn",
+    "torch-geometric>=2.8.0",
+    "torchmetrics",
+    "pandas>=3.0.3",
+]
+
+[dependency-groups]
+dev = [
+    "nb-clean",
+    "ruff",
+    "nbconvert"
+]
